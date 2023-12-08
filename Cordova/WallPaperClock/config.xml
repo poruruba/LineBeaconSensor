@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="jp.or.sample.WallPaperClock" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WallPaperClock</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+
+    <content src="index.html" />
+
+<!--
+    <allow-navigation href="https://【任意のサイト】/cordova_base/*" />
+    <platform name="android">
+        <content src="https://【任意のサイト】/cordova_base/wallpaperclock/android/index.html" />
+    </platform>
+    <platform name="ios">
+        <content src="https://【任意のサイト】/cordova_base/wallpaperclock/ios/index.html" />
+    </platform>
+-->    
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

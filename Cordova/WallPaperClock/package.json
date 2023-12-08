@@ -1,0 +1,31 @@
+{
+  "name": "jp.or.sample.wallpaperclock",
+  "displayName": "WallPaperClock",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^12.0.1",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-powermanagement": "^1.0.5",
+    "cordova-plugin-simpleudp": "file:../cordova-plugin-simpleudp"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-simpleudp": {},
+      "cordova-plugin-powermanagement": {},
+      "cordova-plugin-device": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
