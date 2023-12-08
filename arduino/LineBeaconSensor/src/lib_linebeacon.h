@@ -10,6 +10,7 @@
 #elif defined(ARDUINO_ESP32C3_DEV)
 #define LINEBEACON_DEVICE_NAME  "M5Stamp"
 #else
+#define LINEBEACON_DEVICE_NAME  "ESP32"
 #endif
 
 #define LINEBEACON_DEFAULT_TX -56
