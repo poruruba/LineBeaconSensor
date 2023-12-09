@@ -48,10 +48,10 @@
 -->
     <div id="top" class="container-fluid">
       <div v-bind:class="{ 'top-text-leftbottom': !is_dark, 'top-text-center': is_dark }" v-on:click="background_switch_base">
-        <font color="white">
+        <div>
           <span class="time_style">{{toTimeString(datetime_now)}}</span><br>
           <span class="date_style">{{toDateString(datetime_now)}}</span><br>
-        </font>
+        </div>
       </div>
   
         <!-- for progress-dialog -->
